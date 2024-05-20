@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinkgeldrechner</title>
+    <link rel="stylesheet" href="./assets/rechner.css">
+</head>
+<body>
+    <h1>Trinkgeldrechner</h1>
+    <p>wie hoch war dir Rechnung:</p>
+    <div class="abschnittBetrag">
+    <img src="./assets/img/icons8-geldbeutel-euro-40 1.png" alt="EuroIcon" class="bildGeld">
+    <input type="text" id="betrag" value="" placeholder="€">
+    </div>
+    <br>
+    <p>Personenanzahl:</p>
+    <div class="abschnittPersonen">
+    <img src="./assets/img/icons8-microsoft-people-48 1.png" alt="PeopleIcon" class="personenauswahl">
+    <select name="mengePersonen" id="mengePersonen">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+    </div>
+    <br>
+    <p>Wie war der Service?</p>
+    <select name="serviceBewertung" id="serviceBewertung">
+        <option></option>
+        <option value="guteBewertung">Gut</option>
+        <option value="mittlereBewertung">Mittel</option>
+        <option value="schlechteBewertung">Schlecht</option>
+    </select>
+    <br>
+    <button type="submit" id="berechnungsButton">Klick mich!</button>
+    <ul id="ergebnisElement">
+    </ul>
+    <script type="module" src="./rechner.ts"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    margin: 10% 30%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 10% 5%;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 3%;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+.abschnittBetrag {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.bildGeld {
+    width: 5%;
+}
+
+#betrag::placeholder{
+    text-align: right;
+    padding-right: 5px;
+}
+
+#betrag {
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.abschnittPersonen {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.personenauswahl {
+    width: 5%;
+}
+
+#mengePersonen {
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#serviceBewertung {
+    width: 55%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#berechnungsButton {
+    width: 20%;
+    padding: 1% 5%;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
